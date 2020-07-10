@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+body {
+    margin: 20px;
+    color: #333;
+    font-family: 'PingFang SC', 'Microsoft Yahei', sans-serif;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    padding: 0 10px;
+    color: #1a1a1a;
+}
+
+nav .active {
+    color: #0084ff;
+}
+
+ul {
+
+    padding: 20px 0;
+}
+
+.yy-container {
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    left: 50px;
+    top: 50px;
+    box-shadow: 0px 0px 10px 5px #aaa;
+    overflow: auto;
+    color: #000;
+    margin: 0 0 5px 0;
+    padding: 40px;
+    border: 1px solid #d4d4d4;
+    background-image: linear-gradient(#fff,#e5eecc 100px);
+}
+
+h3 {
+    color: #3c3b3b;
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    line-height: 3.65;
+    margin: 0 3px 16em 0;
+    text-transform: uppercase;
+    display: inline;
+}
+
+.todo-cell {
+    width: 400px;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+}
+
+.todo-cell:hover {
+    border: 1px solid #999;
+}
+
+.todo-complete {
+    position: relative;
+    border-color: #0070c9;
+}
+
+.todo-complete::after {
+    content: '✓';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    color: #61dafb;
+    transform: translateY(-50%);
+}
+
+button {
+    margin: 0 4px;
+    padding: 0 14px;
+    line-height: 32px;
+    color: #232323;
+    background: #EBF3FF;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+}
+
+button:hover {
+    background: #F5F9FF;
+    cursor: pointer;
+}
+
+input {
+    height: 32px;
+    padding: 0 12px;
+    margin: 0 5px;
+    border: 1px solid #eee;
+    outline: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border: 1px solid #61dafb;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #175199;
+}
+
+.todo-table {
+    display: table;
+    margin: 10px 0 30px;
+}
+
+.todo-row {
+    display: table-row;
+}
+
+.todo-row:not(:first-child) {
+    margin-top: -1px;
+}
+
+.cell {
+    display: table-cell;
+    width: 100px;
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+button {
+    background-color: #96AD45;
+}
